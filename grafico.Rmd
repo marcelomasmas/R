@@ -1,0 +1,34 @@
+---
+title: "Untitled"
+author: "marcelo"
+date: '2022-04-19'
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(plotly)
+library(ggrepel)
+library(PerformanceAnalytics)
+library(reshape2)
+
+install.packages(tidyverse)
+
+
+
+ggplot(atlas_ambiental)+
+```
+
+
+```{r}
+ggplot(atlas_ambiental)+
+  geom_line(aes(x = renda , y = quota))
+```
+
+
+```{r}
+ggplot(covid_110521)+
+  geom_line(aes(x = daily_cases , y = pop))
+``
+
+
